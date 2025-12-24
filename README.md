@@ -18,6 +18,12 @@ A collection of custom Raycast scripts for macOS automation and utilities.
 - **Icon**: [Network Icon](./assets/network-icon.png)
 - **Usage**: Run from Raycast to quickly get and copy your local IP
 
+#### Check Network
+- **File**: `check-network.sh`
+- **Description**: Checks network connectivity and latency by pinging 1.1.1.1
+- **Icon**: [Network Icon](./assets/network-icon.png)
+- **Usage**: Run from Raycast to check your network connection and see average latency
+
 ### Settings Utils
 
 #### Toggle Setup

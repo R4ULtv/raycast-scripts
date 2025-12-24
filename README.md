@@ -54,10 +54,6 @@ The `settings/` directory contains Swift utilities for system configuration:
 - Raycast
 - Swift runtime (for compiled binaries)
 
-## Author
-
-lil-poop - [Raycast Profile](https://raycast.com/lil-poop)
-
 ## Notes
 
 The toggle-setup script uses private APIs to modify system settings. Paths in `toggle-setup.sh` are hardcoded to `/Users/rcari/Documents/Raycast/` and may need to be updated for your environment.

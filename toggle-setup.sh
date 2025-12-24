@@ -6,7 +6,7 @@
 # @raycast.mode silent
 
 # Optional parameters:
-# @raycast.icon ./assets/setup-icon.png
+# @raycast.icon ./assets/settings-icon.png
 # @raycast.packageName Settings Utils
 
 # Documentation:

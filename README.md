@@ -7,7 +7,7 @@ A collection of custom Raycast scripts for macOS automation and utilities.
 ### Network Utils
 
 #### Get Public IP
-- **File**: `my-public-ip-adress.sh`
+- **File**: `get-public-ip.sh`
 - **Description**: Retrieves your public IP address and copies it to the clipboard
 - **Icon**: [Network Icon](./assets/network-icon.png)
 - **Usage**: Run from Raycast to quickly get and copy your public IP

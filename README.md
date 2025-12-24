@@ -9,7 +9,7 @@ A collection of custom Raycast scripts for macOS automation and utilities.
 #### Get Public IP
 - **File**: `my-public-ip-adress.sh`
 - **Description**: Retrieves your public IP address and copies it to the clipboard
-- **Icon**: ![Network Icon](./assets/network-icon.png)
+- **Icon**: [Network Icon](./assets/network-icon.png)
 - **Usage**: Run from Raycast to quickly get and copy your public IP
 
 ### Settings Utils
@@ -17,7 +17,7 @@ A collection of custom Raycast scripts for macOS automation and utilities.
 #### Toggle Setup
 - **File**: `toggle-setup.sh`
 - **Description**: Toggles between HOME and PORTABLE setups by switching keyboard layout and scroll direction
-- **Icon**: ![Setup Icon](./assets/setup-icon.png)
+- **Icon**: [Setup Icon](./assets/setup-icon.png)
 - **Features**:
   - Switches keyboard layout between US and Italian-Pro
   - Toggles natural scrolling on/off

@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Get Public IP
+# @raycast.title Get Public IPv4
 # @raycast.mode silent
 
 # Optional parameters:

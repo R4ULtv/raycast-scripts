@@ -14,11 +14,14 @@
 # @raycast.author lil-poop
 # @raycast.authorURL https://raycast.com/lil-poop
 
+# Get the directory where this script is located
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
 # Run toggle-scroll and capture output
-scroll_result=$(/Users/rcari/Documents/Raycast/settings/toggle-scroll)
+scroll_result=$("$SCRIPT_DIR/settings/toggle-scroll")
 
 # Run toggle-keyboard and capture output
-keyboard_result=$(/Users/rcari/Documents/Raycast/settings/toggle-keyboard)
+keyboard_result=$("$SCRIPT_DIR/settings/toggle-keyboard")
 
 # Print combined result
 echo "$scroll_result | $keyboard_result"

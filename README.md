@@ -68,4 +68,6 @@ The `settings/` directory contains Swift utilities for system configuration:
 
 ## Notes
 
-The toggle-setup script uses private APIs to modify system settings. Paths in `toggle-setup.sh` are hardcoded to `/Users/rcari/Documents/Raycast/` and may need to be updated for your environment.
+- The toggle-setup script uses private APIs to modify system settings
+- Scripts use dynamic path resolution, making them portable across different installations without modification
+- The Swift utilities rely on macOS private frameworks which may break across OS updates

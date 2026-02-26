@@ -24,6 +24,20 @@ A collection of custom Raycast scripts for macOS automation and utilities.
 - **Icon**: [Network Icon](./assets/network-icon.png)
 - **Usage**: Run from Raycast to check your network connection and see average latency
 
+### GitHub Utils
+
+#### Switch GitHub Account
+- **File**: `gh-switch.sh`
+- **Description**: Switches the active GitHub CLI account and shows the user switched to
+- **Icon**: [GitHub Switch Icon](./assets/gh-switch-icon.png)
+- **Usage**: Run from Raycast to cycle between your GitHub accounts
+
+#### Get GitHub User
+- **File**: `gh-user.sh`
+- **Description**: Shows the current active GitHub CLI user
+- **Icon**: [GitHub Switch Icon](./assets/gh-switch-icon.png)
+- **Usage**: Run from Raycast to see which GitHub account is currently active
+
 ### Settings Utils
 
 #### Toggle Setup
@@ -64,7 +78,8 @@ The `settings/` directory contains Swift utilities for system configuration:
 
 - macOS
 - Raycast
-- Swift runtime (for compiled binaries)
+- Swift runtime (only for Settings Utils)
+- GitHub CLI (`gh`) (only for GitHub Utils)
 
 ## Notes
 
